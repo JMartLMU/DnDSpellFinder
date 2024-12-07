@@ -1,0 +1,44 @@
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url(https://st5.depositphotos.com/6823598/69423/v/450/depositphotos_694233952-stock-illustration-ancient-papyrus-manuscript-mockup-scroll.jpg);
+  background-position: center 10vh;
+  background-repeat: no-repeat;
+  background-size: 100dvh;
+  font-family: "Jacquard 12";
+  color: gray;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+.App {
+  font-family: "Jacquard 12";
+  padding: 0vh 10vw;
+}
+
+#info {
+  font-size: 2.5vmin;
+  padding: 8vh 0vw;
+  margin: 0vh 25vw;
+  color: red;
+  text-shadow: 1px 1px grey;
+}
+
+#spell-name {
+  color: gray;
+  text-shadow: 2px 2px black;
+}
+
+#small {
+  display: grid;
+  grid-template: 10px 10px / max(5vw, 100px) max(5vw, 50px);
+  row-gap: 5px;
+}
